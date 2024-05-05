@@ -3,31 +3,41 @@ body {
 }
 
 nav a {
+    /* enlevéla surligne */
     text-decoration: none;
-    color: aliceblue;
+    color: #fff;
+    /* aligner le texte */
     text-align: center;
 }
 
-header {
-    background-color: grey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* verticalité- horizontal */
-    padding: 0 50px;
-}
-
 ul {
+    /* mettre les boites en ligne */
+    display: flex;
+    /* aligne les meme boites */
+    align-items: center;
+    /* remplace margin et padding */
+    gap: 20px;
+}
+nav{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
+    /* mettre un ecart entre les mots */
+    justify-content: space-between;
+    margin: 0 20%;
+}
+.photo{
+    /* filtre de l image */
+       filter:brightness(0.5) ;
 }
 
-ul a {
-    padding: 10px;
-    margin: 10px;
-}
 
 button {
+    /* pour le bouton */
     border: none;
     background-color: #fb2056;
     padding: 16px 40px;
