@@ -42,9 +42,11 @@ button {
 
 header {
     /* image */
-    background-image: url('./photo-page1.jpg');
+    background-image: url('./images/photo-haut-page1.jpg');
     background-position: center;
     background-size: cover;
+    /* pour que l image ne bouge pas */
+    background-attachment: fixed;
 }
 .filter {
     /* changement de l opacité */
@@ -61,6 +63,8 @@ h1{
    
 }
 .button1{
+    /* pour mettre un curseur */
+    cursor: pointer;
     text-decoration: none;
     color: #fff;
 }
@@ -71,4 +75,28 @@ p{
 .titre{
     font-family:'Montserrat Alternates';
     padding-top: 200px;
+}
+.adam{
+    background-color:rgba(223, 206, 206, 0.663);
+    position: relative;
+    padding: 2rem;
+}
+p{
+    text-align: center;
+    font-family:'Noto Sans';
+    color:black;
+}
+.logo1{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+
+}
+button:hover{
+    background-color:rgb(91, 29, 179);
+}
+.upcoming{
+    font-family:'Montserrat Alternates' ;
+    padding-top: 100px;
+    
 }
