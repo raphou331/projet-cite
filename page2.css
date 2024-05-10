@@ -4,8 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-}
-
+} 
 nav a {
     /* enlevéla surligne */
     text-decoration: none;
@@ -41,83 +40,24 @@ button {
     height: 46px;
     border-radius: 30px;
 }
-
-header {
-    background-image: url(/images/fond-ecran-page2.jpg);
+header{
+    background-image: url(/images/fond-page3.jpg);
     background-position: center;
     background-size: cover;
-    /* pour que l image ne bouge pas */
     background-attachment: fixed;
 }
 
 .filter {
-    /* changement de l opacité */
     background: rgba(0, 0, 0, 0.336);
     height: 100vh;
     text-align: center;
 }
-
 h1 {
     color: #fff;
     font-size: 64px;
     text-align: center;
 }
-
-h2 {
-    font-family: 'Montserrat Alternates';
-}
-p{
-    font-family:'Noto Sans' ;
-}
-
 .titre {
     font-family: 'Montserrat Alternates';
-    padding-top: 200px;
-}
-
-.milieu {
-    display: flex;
-    /* justify-content: center; */
-    padding-top: 100px;
-    margin-left: 100px;
-    background-color: #fff;
-}
-
-.mission {
-    margin-right: 260px;
-    margin-left: 200px;
-}
-
-.chute {
-    margin-right: 290px;
-}
-
-span {
-    color: red;
-}
-
-footer {
-    background-color: black;
-    font-family: 'Noto Sans';
-    margin-top: 100px;
-    padding: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.texte {
-    display: flex;
-    padding-top: 100px;
-    margin-left: 100px;
-    text-align: start;
-}
-
-.extra {
-    margin-right: 100px;
-    margin-left: 200px;
-}
-
-.our {
-    margin-right: 420px;
-    margin-left: 200px;
+    padding-top: 300px;
 }
