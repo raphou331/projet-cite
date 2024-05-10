@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(34, 65, 65);
+}
+nav a {
+    /* enlevéla surligne */
+    text-decoration: none;
+    color: #fff;
+    /* aligner le texte */
+    text-align: center;
+}
+
+ul {
+    /* mettre les boites en ligne */
+    display: flex;
+    /* aligne les meme boites */
+    align-items: center;
+    /* remplace margin et padding */
+    gap: 20px;
+    font-family: 'Noto Sans'
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* mettre un ecart entre les mots */
+    justify-content: space-between;
+    margin: 0 17%;
+}
+
+button {
+    /* pour le bouton */
+    border: none;
+    background-color: #fb2056;
+    padding: 16px 40px;
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+}
+h1 {
+    color: #fff;
+    font-size: 64px;
+    }
+.titre {
+        font-family: 'Montserrat Alternates';
+        padding-top: 200px;
+        }
