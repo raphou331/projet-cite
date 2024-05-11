@@ -4,7 +4,8 @@
 body {
     margin: 0;
     padding: 0;
-} 
+}
+
 nav a {
     /* enlevéla surligne */
     text-decoration: none;
@@ -40,8 +41,9 @@ button {
     height: 46px;
     border-radius: 30px;
 }
-header{
-    background-image: url(/images/fond-page3.jpg);
+
+header {
+    background-image: url(/images/fond-page4.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -52,77 +54,18 @@ header{
     height: 100vh;
     text-align: center;
 }
+
 button:hover {
     background-color: rgb(91, 29, 179);
 }
+
 h1 {
     color: #fff;
     font-size: 64px;
     text-align: center;
 }
+
 .titre {
     font-family: 'Montserrat Alternates';
     padding-top: 300px;
-}
-.start{
-    margin-top: 100px;
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
-}
-span{
-    color: #fb2056;
-}
-.premiere{
-    display:flex ;
-    text-align: center;
-  justify-content: center;
-}
-.backpacking{
-    margin-right: 50px;
-}
-.family{
-    margin-left: 50px;
-}
-.seconde{
-    display:flex ;
-    text-align: center;
-  justify-content: center;
-  margin-top:100px ;
-}
-.water{
-    margin-right: 50px;
-}
-.winter{
-    margin-left: 50px;
-}
-footer {
-    background-color: black;
-    font-family: 'Noto Sans';
-    margin-top: 100px;
-    padding: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-p{
-    font-family: 'Noto Sans';  
-}
-h3 h2{
-    font-family: 'Montserrat Alternates'; 
-}
-.troisieme {
-    display: flex;
-    padding-top: 100px;
-    margin-left: 100px;
-    text-align: start;
-}
-.why {
-    margin-right: 100px;
-    margin-left: 150px;
-}
-
-.what {
-    margin-right: 400px;
-    margin-left: 150px;
 }

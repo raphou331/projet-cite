@@ -56,6 +56,9 @@ header {
     height: 100vh;
     text-align: center;
 }
+button:hover {
+    background-color: rgb(91, 29, 179);
+}
 
 h1 {
     color: #fff;
@@ -121,3 +124,4 @@ footer {
     margin-right: 420px;
     margin-left: 200px;
 }
+
