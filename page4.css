@@ -11,6 +11,10 @@ nav a {
     color: #fff;
     text-align: center;
 }
+.logo{
+    margin-right: 200px;
+    margin-left: -100px;
+}
 
 ul {
     display: flex;

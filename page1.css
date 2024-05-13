@@ -13,6 +13,10 @@ nav a {
     /* aligner le texte */
     text-align: center;
 }
+.logo{
+    margin-right: 200px;
+    margin-left: -100px;
+}
 
 ul {
     /* mettre les boites en ligne */

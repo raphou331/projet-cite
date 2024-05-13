@@ -10,6 +10,10 @@ p {
     padding: 0;
 
 }
+.logo{
+    margin-right: 200px;
+    margin-left: -100px;
+}
 
 nav a {
     /* enlevéla surligne */
@@ -121,19 +125,23 @@ button:hover {
 
 .loisir {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.loisir img {
+    width: 45%;
 }
 
 .everest {
     text-align: center;
-    margin: 30px;
-    padding: 100px;
+
 }
 
 .walking {
     text-align: center;
-    margin: 30px;
-    padding: 100px;
+
 }
 
 h4 {
@@ -152,41 +160,53 @@ h4 {
     background-size: cover;
     height: 596px;
     color: #fff;
-    height: 80vh;
-    text-align:left;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.471);
 }
 
 .explore {
-   padding-top: 250px;
-   padding-left: 250px;
+   width: 50%;
+   text-align: center;
+   margin-top: 200px;
+}
+.explore p{
+    color: white;
 }
 
 
 .upcoming {
-    position: relative;
-    text-align: start;
-    margin-top: 100px;
-    margin-right: 100px;
-    margin-left: 200px;
-    padding-left: 0px;
-    padding-right: 60px;
+    width: 30%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.firstlast {
+    width: 65%;
+    display: flex;
+    margin-top: 80px;
+
+}
+
+.firstlast img{
+    width: 100%;
+  padding: 5px;
 }
 
 .first {
+    width: 45%;
+}
 
-    margin-right: 200px;
-    padding: 10px;
-    margin-top: 90px;
-    margin-left: 300px;
+.last {
+    width: 45%;
 }
 
 .tours {
     display: flex;
-}
-
-.last {
-    margin-right: 400px;
-    margin-top: 100px;
+    justify-content: space-around;
+    padding: 3rem;
 }
 
 footer {
@@ -198,6 +218,4 @@ footer {
     padding-bottom: 40px;
     text-align: center;
 }
-.redline{
-    color: #fb2056;
-}
+
