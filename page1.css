@@ -13,7 +13,8 @@ nav a {
     /* aligner le texte */
     text-align: center;
 }
-.logo{
+
+.logo {
     margin-right: 200px;
     margin-left: -100px;
 }
@@ -60,6 +61,7 @@ header {
     height: 100vh;
     text-align: center;
 }
+
 button:hover {
     background-color: rgb(91, 29, 179);
 }
@@ -73,8 +75,9 @@ h1 {
 h2 {
     font-family: 'Montserrat Alternates';
 }
-p{
-    font-family:'Noto Sans' ;
+
+p {
+    font-family: 'Noto Sans';
 }
 
 .titre {
@@ -84,19 +87,24 @@ p{
 
 .milieu {
     display: flex;
-    /* justify-content: center; */
-    padding-top: 100px;
-    margin-left: 100px;
+    padding: 3rem;
     background-color: #fff;
+    justify-content:space-around;
+    gap: 2rem;
 }
 
 .mission {
-    margin-right: 260px;
-    margin-left: 200px;
+    justify-content: flex-start;
+    width: 45%;
+
+}
+
+.chute img {
+    width: 80%;
 }
 
 .chute {
-    margin-right: 290px;
+    width: 45%;
 }
 
 span {
@@ -114,18 +122,17 @@ footer {
 
 .texte {
     display: flex;
-    padding-top: 100px;
-    margin-left: 100px;
-    text-align: start;
+    text-align: left;
+    justify-content: space-around;
+    padding: 3rem;
+    gap: 2rem;
+
 }
 
 .extra {
-    margin-right: 100px;
-    margin-left: 200px;
+    width: 45%;
 }
 
 .our {
-    margin-right: 420px;
-    margin-left: 200px;
+    width: 45%;
 }
-

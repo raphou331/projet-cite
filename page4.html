@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web site</title>
     <link rel="stylesheet" href="page4.css">
+    <!-- lien pour icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <header>
         <section class="filter">
@@ -27,5 +31,51 @@
             </section>
         </section>
     </header>
+    <!-- **bloc pour le formulaire** -->
+    <section class="container">
+        <!-- **formulaire de contact**   -->
+        <section class="formulaire">
+            <h2>We're Ready, Let's Talk.</h2>
+            <form action="#" method="post">
+                <section class="form">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </section>
+                <section class="form">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </section>
+                <section class="form">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+                </section>
+                <button type="submit">Send Message</button>
+
+        </section>
+        <!-- **info de contact**   -->
+        <section class="info-container">
+            <h2>Contact Info</h2>
+            <h3>Address</h3>
+            <p>123 Fifth Avenue, NY 10160, New York, USA</p>
+            <h3>Email Us</h3>
+            <p>contact@example.com</p>
+            <h3>Call Us </h3>
+            <p>800-123-456</p>
+            <h3> Follow Us </h3>
+            <section class="reseaux">
+                <a href="https://www.facebook.com/votre-page-facebook" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/votre-compte-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/votre-chaine-youtube" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+            </section>
+        </section>
+    </section>
+    <footer>
+        <p style="color: white;">123 Fifth Avenue,NY 10160,NEW YORK,USA| Phone:800-123-456|
+            Email:contact@example.com</p>
+        <p style="color: white;">Copyright© 2024 Outdoor Adventure</p>
+    </footer>
 </body>
+
 </html>

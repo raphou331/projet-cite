@@ -11,7 +11,8 @@ nav a {
     color: #fff;
     text-align: center;
 }
-.logo{
+
+.logo {
     margin-right: 200px;
     margin-left: -100px;
 }
@@ -64,5 +65,91 @@ h1 {
 
 .titre {
     font-family: 'Montserrat Alternates';
-    padding-top: 300px;
+    padding-top: 200px;
+}
+
+/* formulaire */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 70px;
+}
+
+.formulaire {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* texte */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* / **infos de contact**/
+.info-container {
+    margin-top: 100px;
+}
+
+.info-container p {
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+/* **icone réseaux**/
+.reseaux {
+    display: flex;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: rgb(192, 15, 9);
+}
+
+
+.reseaux a {
+    margin-right: 10px;
+    color: rgb(245, 64, 64);
+    margin-top: 10px;
+}
+
+.reseaux a:last-child {
+    /* Aucun espacement après la dernière icône */
+    margin-right: 0;
+
+}
+
+footer {
+    background-color: black;
+    font-family: 'Noto Sans';
+    margin-top: 100px;
+    padding: 40px;
+    padding-bottom: 40px;
+    text-align: center;
 }

@@ -67,7 +67,7 @@ h1 {
 }
 .titre {
     font-family: 'Montserrat Alternates';
-    padding-top: 300px;
+    padding-top: 200px;
 }
 .start{
     margin-top: 100px;
@@ -80,28 +80,31 @@ span{
     color: #fb2056 ;
 }
 .premiere{
-    display:flex ;
+   
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    justify-content:space-around;
     text-align: center;
-  justify-content: center;
+    gap: 2rem;
 }
-.backpacking{
-    margin-right: 50px;
+.premiere img{
+  width: 80%;
 }
-.family{
-    margin-left: 50px;
-}
+
 .seconde{
-    display:flex ;
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    justify-content:space-around;
     text-align: center;
-  justify-content: center;
-  margin-top:100px ;
+    gap: 2rem;
+
 }
-.water{
-    margin-right: 50px;
+.seconde img{
+    width: 80%;
 }
-.winter{
-    margin-left: 50px;
-}
+
 footer {
     background-color: black;
     font-family: 'Noto Sans';
@@ -118,20 +121,15 @@ h3 h2{
 }
 .troisieme {
     display: flex;
-    margin-top: 150px;
-   margin-bottom: 100px; 
-   text-align: start;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   padding-left: 50px;
-   padding-right: 50px;
+    text-align: left;
+    justify-content: space-around;
+    padding: 3rem;
+    gap: 2rem;
 }
 .why {
-    margin-right: 50px;
-    margin-left: 70px;
+    width: 45%;
 }
 
 .what {
-    margin-right: 50px;
-    margin-left: 30px;
-}
+    width: 45%; 
+} 
