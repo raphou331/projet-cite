@@ -13,7 +13,8 @@ nav a {
     /* aligner le texte */
     text-align: center;
 }
-.logo{
+
+.logo {
     margin-right: 200px;
     margin-left: -100px;
 }
@@ -35,6 +36,7 @@ nav {
     /* mettre un ecart entre les mots */
     justify-content: space-between;
     margin: 0 17%;
+    gap: 5rem;
 }
 
 button {
@@ -51,7 +53,6 @@ header {
     background-image: url(/images/fond-page4.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .filter {
@@ -65,33 +66,69 @@ button:hover {
 }
 
 h1 {
+ font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 64px;
     text-align: center;
 }
 
 .titre {
-    font-family: 'Montserrat Alternates';
+  font-family: "Montserrat", sans-serif;
     padding-top: 200px;
 }
-.water{
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+
+.water {
+    text-align: center;
+    padding: 2rem;
 }
-span{
+
+.slider {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.slider2 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.slider3 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.slider img {
+    width: 30%;
+}
+
+.slider2 img {
+    width: 30%;
+}
+
+.slider3 img {
+    width: 30%;
+}
+
+span {
     color: #fb2056;
 }
-.winter{
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 50px; 
+
+.winter {
+    text-align: center;
+    padding: 2rem;
 }
-.camping{
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 50px;  
+
+.camping {
+    text-align: center;
+    padding: 2rem;
 }
+
 footer {
     background-color: black;
     font-family: 'Noto Sans';
@@ -100,13 +137,16 @@ footer {
     padding-bottom: 40px;
     text-align: center;
 }
-h2{
-    font-family:'Montserrat Alternates' ;
+
+h2 {
+  font-family: "Montserrat", sans-serif;
     font-size: 34px;
 }
-h3{
-    font-family:'Noto Sans';
+
+h3 {
+   font-family: "Montserrat", sans-serif;
 }
-p{
-    font-family:'Noto Sans'; 
+
+p {
+    font-family: 'Noto Sans';
 }

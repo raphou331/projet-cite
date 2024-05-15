@@ -29,6 +29,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 17%;
+    gap: 5rem;
 }
 
 button {
@@ -44,7 +45,6 @@ header {
     background-image: url(/images/photo-haut-page5.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .filter {
@@ -58,13 +58,14 @@ button:hover {
 }
 
 h1 {
+font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 64px;
     text-align: center;
 }
 
 .titre {
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat', sans-serif;
     padding-top: 200px;
 }
 
@@ -85,8 +86,12 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 80px;
 }
+h3{
+font-family: "Montserrat", sans-serif;
+}
 
 h2 {
+font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
 }
 
@@ -106,7 +111,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid ;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 

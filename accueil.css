@@ -31,6 +31,7 @@ ul {
     /* remplace margin et padding */
     gap: 20px;
     font-family: 'Noto Sans'
+   
 }
 
 nav {
@@ -39,6 +40,7 @@ nav {
     /* mettre un ecart entre les mots */
     justify-content: space-between;
     margin: 0 17%;
+    gap: 5rem;
 }
 
 button {
@@ -69,7 +71,11 @@ header {
 }
 
 h3 {
+font-family: "Montserrat", sans-serif;
     color: #fff;
+}
+h2{
+font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -91,7 +97,7 @@ p {
 }
 
 .titre {
-    font-family: 'Montserrat Alternates';
+    font-family: "Montserrat", sans-serif;
     padding-top: 200px;
 }
 
@@ -116,8 +122,8 @@ button:hover {
     background-color: rgb(91, 29, 179);
 }
 
-.upcoming1 {
-    font-family: 'Montserrat Alternates';
+.upcoming1 { 
+    font-family: "Montserrat", sans-serif;
     padding-top: 100px;
     text-align: center;
     margin-bottom: 50px;
@@ -145,7 +151,7 @@ button:hover {
 }
 
 h4 {
-    font-family: 'Montserrat Alternates';
+   font-family: "Montserrat", sans-serif;
 }
 
 .button1 {
