@@ -10,9 +10,9 @@ p {
     padding: 0;
 
 }
-.logo{
-    margin-right: 200px;
-    margin-left: -100px;
+
+.logo {
+    width: 20%;
 }
 
 nav a {
@@ -31,27 +31,27 @@ ul {
     /* remplace margin et padding */
     gap: 20px;
     font-family: 'Noto Sans'
-   
+
 }
 
 nav {
+    width: 80%;
     display: flex;
     align-items: center;
     /* mettre un ecart entre les mots */
     justify-content: space-between;
-    margin: 0 17%;
-    gap: 5rem;
+    /* margin:2rem; */
+    /* gap: 5rem; */
 }
 
 button {
     /* pour le bouton */
     border: none;
     background-color: #fb2056;
-    padding: 6px 40px;
-    width: 190px;
+    padding: 16px 40px;
+    width: 172px;
     height: 46px;
     border-radius: 30px;
-    text-align: center;
 }
 
 header {
@@ -71,11 +71,12 @@ header {
 }
 
 h3 {
-font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
-h2{
-font-family: "Montserrat", sans-serif;
+
+h2 {
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -98,7 +99,7 @@ p {
 
 .titre {
     font-family: "Montserrat", sans-serif;
-    padding-top: 200px;
+    padding-top: 3em;
 }
 
 .adam {
@@ -122,7 +123,7 @@ button:hover {
     background-color: rgb(91, 29, 179);
 }
 
-.upcoming1 { 
+.upcoming1 {
     font-family: "Montserrat", sans-serif;
     padding-top: 100px;
     text-align: center;
@@ -137,7 +138,7 @@ button:hover {
 }
 
 .loisir img {
-    width: 45%;
+    width: 70%;
 }
 
 .everest {
@@ -151,7 +152,7 @@ button:hover {
 }
 
 h4 {
-   font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .button1 {
@@ -174,11 +175,12 @@ h4 {
 }
 
 .explore {
-   width: 50%;
-   text-align: center;
-   margin-top: 200px;
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
 }
-.explore p{
+
+.explore p {
     color: white;
 }
 
@@ -197,9 +199,9 @@ h4 {
 
 }
 
-.firstlast img{
+.firstlast img {
     width: 100%;
-  padding: 5px;
+    padding: 5px;
 }
 
 .first {
@@ -226,3 +228,48 @@ footer {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul a button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .titre h3 {
+        font-size: 20px;
+    }
+
+    .titre p {
+        font-size: 16px;
+    }
+
+    .titre h1 {
+        font-size: 30px;
+    }
+
+    .button1 {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .chapeau {
+        background-attachment: initial;
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 2rem;
+    }
+}

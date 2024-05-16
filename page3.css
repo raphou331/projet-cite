@@ -15,8 +15,7 @@ nav a {
 }
 
 .logo {
-    margin-right: 200px;
-    margin-left: -100px;
+   width: 20%;
 }
 
 
@@ -31,12 +30,11 @@ ul {
 }
 
 nav {
+    width: 80%;
     display: flex;
     align-items: center;
     /* mettre un ecart entre les mots */
     justify-content: space-between;
-    margin: 0 17%;
-    gap: 5rem;
 }
 
 button {
@@ -74,7 +72,7 @@ h1 {
 
 .titre {
   font-family: "Montserrat", sans-serif;
-    padding-top: 200px;
+    padding-top: 3em
 }
 
 .water {
@@ -150,3 +148,30 @@ h3 {
 p {
     font-family: 'Noto Sans';
 }
+@media (max-width: 768px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: row;
+        /* box-sizing: border-box; */
+
+    }
+
+
+    nav ul {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul a button {
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+        margin-top:20px;
+        margin-left: 2rem;
+     }
+    }

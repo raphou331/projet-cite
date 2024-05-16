@@ -15,8 +15,7 @@ nav a {
 }
 
 .logo {
-    margin-right: 200px;
-    margin-left: -100px;
+    width: 20%;
 }
 
 ul {
@@ -30,13 +29,12 @@ ul {
 }
 
 nav {
+    width: 80%;
     display: flex;
     align-items: center;
     /* mettre un ecart entre les mots */
     justify-content: space-between;
-    margin: 0 17%;
-    gap: 5rem;
-}
+    }
 
 button {
     /* pour le bouton */
@@ -83,7 +81,7 @@ p {
 
 .titre {
    font-family: "Montserrat", sans-serif;
-    padding-top: 200px;
+   padding-top: 3em;
 }
 
 .milieu {
@@ -101,11 +99,12 @@ p {
 }
 
 .chute img {
-    width: 80%;
+    margin-top: 2em;
+    width: 90%;
 }
 
 .chute {
-    width: 45%;
+    width: 50%;
 }
 
 span {
@@ -137,3 +136,30 @@ footer {
 .our {
     width: 45%;
 }
+@media (max-width: 768px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: row;
+        /* box-sizing: border-box; */
+
+    }
+
+
+    nav ul {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul a button {
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+        margin-top:20px;
+        margin-left: 2rem;
+     }
+    }
