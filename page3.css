@@ -15,7 +15,7 @@ nav a {
 }
 
 .logo {
-   width: 20%;
+    width: 20%;
 }
 
 
@@ -48,7 +48,7 @@ button {
 }
 
 header {
-    background-image: url(/images/fond-page4.jpg);
+    background-image: url(./images/fond-page4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -64,14 +64,14 @@ button:hover {
 }
 
 h1 {
- font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 64px;
     text-align: center;
 }
 
 .titre {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding-top: 3em
 }
 
@@ -137,29 +137,28 @@ footer {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 34px;
 }
 
 h3 {
-   font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 p {
     font-family: 'Noto Sans';
 }
+
 @media (max-width: 768px) {
     nav {
         align-items: flex-start;
         flex-direction: row;
-        /* box-sizing: border-box; */
 
     }
 
 
     nav ul {
         width: 100%;
-        /* flex-direction: column; */
     }
 
     nav ul li {
@@ -170,26 +169,28 @@ p {
         width: 100%;
         text-align: center;
     }
-    .logo{
-        margin-top:20px;
+
+    .logo {
+        margin-top: 20px;
         margin-left: 2rem;
-     }
     }
-    @media (max-width:480px) {
-        .filter nav {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-    
-        ul {
-            gap: 10px;
-        }
-    
-        .titre {
-            padding-top: 0;
-        }
-    
-        .logo {
-            margin-left: 180px;
-        }
-        }
+}
+
+@media (max-width:480px) {
+    .filter nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        gap: 10px;
+    }
+
+    .titre {
+        padding-top: 0;
+    }
+
+    .logo {
+        margin-left: 180px;
+    }
+}

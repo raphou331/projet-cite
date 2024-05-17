@@ -158,7 +158,7 @@ h4 {
 }
 
 .chapeau {
-    background-image: url(/images/explore.jpg);
+    background-image: url(./images/explore.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
