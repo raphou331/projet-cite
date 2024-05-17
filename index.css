@@ -48,7 +48,7 @@ button {
     /* pour le bouton */
     border: none;
     background-color: #fb2056;
-    padding: 16px 40px;
+    padding: 1px 40px;
     width: 172px;
     height: 46px;
     border-radius: 30px;
@@ -93,7 +93,6 @@ h1 {
 
 p {
     text-decoration: dotted;
-    /* color: #fb2056; */
     text-align: center;
 }
 
@@ -108,7 +107,7 @@ p {
 }
 
 .adam p {
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Noto Sans';
     color: black;
 }
@@ -273,3 +272,42 @@ footer {
         margin-left: 2rem;
     }
 }
+@media (max-width:480px) {
+    .filter nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul{
+        gap: 10px;
+    }
+    .titre{
+        padding-top: 0;
+    }
+    .logo{
+        margin-left: 180px;
+    }
+    .button1{
+    /* padding: 1px; */
+    }
+    .adam p {
+        text-align: justify;
+    }
+  .upcoming1 {
+ text-align: start;
+  }
+ 
+}
+    /* section {
+        flex-direction: column;
+    }
+    img {
+        width: 90%;
+    }
+    ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    button {
+        display: inline;
+    } */
