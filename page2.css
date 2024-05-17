@@ -47,7 +47,7 @@ button {
     /* pour le bouton */
     border: none;
     background-color: #fb2056;
-    padding: 16px 40px;
+    padding: 1px 40px;
     width: 172px;
     height: 46px;
     border-radius: 30px;
@@ -179,4 +179,27 @@ h3 h2 {
         margin-top:20px;
         margin-left: 2rem;
      }
+    }
+    @media (max-width:480px) {
+        .filter nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        ul {
+            gap: 10px;
+        }
+    
+        .titre {
+            padding-top: 0;
+        }
+    
+        .logo {
+            margin-left: 180px;
+        }
+        .start{
+            text-align: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
     }

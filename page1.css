@@ -34,13 +34,13 @@ nav {
     align-items: center;
     /* mettre un ecart entre les mots */
     justify-content: space-between;
-    }
+}
 
 button {
     /* pour le bouton */
     border: none;
     background-color: #fb2056;
-    padding: 16px 40px;
+    padding: 1px 40px;
     width: 172px;
     height: 46px;
     border-radius: 30px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-    
+
     font-family: "Montserrat", sans-serif;
 }
 
@@ -80,15 +80,15 @@ p {
 }
 
 .titre {
-   font-family: "Montserrat", sans-serif;
-   padding-top: 3em;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 3em;
 }
 
 .milieu {
     display: flex;
     padding: 3rem;
     background-color: #fff;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 2rem;
 }
 
@@ -136,18 +136,17 @@ footer {
 .our {
     width: 45%;
 }
+
 @media (max-width: 768px) {
     nav {
         align-items: flex-start;
         flex-direction: row;
-        /* box-sizing: border-box; */
 
     }
 
 
     nav ul {
         width: 100%;
-        /* flex-direction: column; */
     }
 
     nav ul li {
@@ -158,8 +157,41 @@ footer {
         width: 100%;
         text-align: center;
     }
-    .logo{
-        margin-top:20px;
+
+    .logo {
+        margin-top: 20px;
         margin-left: 2rem;
-     }
     }
+}
+
+@media (max-width:480px) {
+    .filter nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        gap: 10px;
+    }
+
+    .titre {
+        padding-top: 0;
+    }
+
+    .logo {
+        margin-left: 180px;
+    }
+
+    .upcoming1 {
+        text-align: start;
+    }
+
+    .tours {
+        flex-direction: column;
+        align-items: center;
+    }
+    .chute img{
+        margin-top: 10em;
+        width: 100%;
+    }
+}
